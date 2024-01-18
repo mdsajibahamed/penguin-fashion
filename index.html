@@ -5,8 +5,151 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Penguin Fashion</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@800&family=Roboto+Mono:ital,wght@1,200&family=Work+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@800&family=Roboto+Mono:ital,wght@1,200&family=Roboto:wght@400;500;700&family=Work+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+  
+<style>
+    .font-bebas{
+        font-family: 'Bebas Neue', sans-serif;
+    }
+    .font-roboto{
+        font-family: 'Roboto', sans-serif;
+      /* font-family: 'Roboto Mono', monospace; */
+    }
+</style>
 </head>
 <body>
-    <h2>hello</h2>
+    <!-- control space bar  do not yeat tailwind css extention  uppercase use-->
+    <header class="bg-[#FFFBF0] px-2 md:px-32 py-20">
+
+        <nav>
+
+        </nav>
+        <div class=" flex flex-col md:flex-row justify-between items-center " >
+            <div class="space-y-4">
+                <h1 class=" text-7xl font-bebas"> <span class="text-[#FABE4C]">BE THE PENGUINS</span> <br> OF WINTER</h1>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                <button class=" py-4 px-9 bg-gradient-to-r from-[#A4BC46] to-[#85A019]  rounded-xl uppercase text-white font-medium">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                   Buy Now</button>
+            </div>
+            <div class=" mt-12 md:mt-0">
+                <img src="./images/model.png" alt="">
+            </div>
+        </div>
+    </header>
+    <main class="max-w-7xl mx-auto">
+        <!-- women jacket  -->
+        <section class="py-12">
+            <h3 class="text-5xl font-bebas">women jacket</h3>
+            <!-- jacket 1 -->
+            <div class="font-roboto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7">
+                <div class="space-y-3 shadow-white px-5">
+                    <div class="bg-[#f1f1f1] drop-shadow-xl p-5 rounded-2xl">
+                     <img src="./images/jacket-1.png" alt="">
+                    </div>
+                     <h4 class="text-2xl">Yellow Coat Jacket</h4>
+                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis, consequatur voluptatem. Nulla a voluptate, facere expedita.</p>
+                     
+                     <div class="flex justify-between ">
+                         <h3 class="text-4xl font-black text-orange-400">$235</h3>
+                         <button class=" py-4 px-9 bg-gradient-to-r from-[#A4BC46] to-[#85A019]  rounded-xl uppercase text-white font-medium">
+                             <i class="fa-solid fa-cart-shopping"></i>
+                            Buy Now</button>
+                     </div>
+                 </div>
+                  <!-- jacket 2 -->
+                  <div class="space-y-3 drop-shadow-xl px-5">
+                     <div class="bg-[#f1f1f1] p-5 rounded-2xl">
+                      <img src="./images/jacket-2.png" alt="">
+                     </div>
+                      <h4 class="text-2xl">Yellow Coat Jacket</h4>
+                      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis, consequatur voluptatem. Nulla a voluptate, facere expedita.</p>
+                      
+                      <div class="flex justify-between ">
+                          <h3 class="text-4xl font-black text-orange-400">$235</h3>
+                          <button class=" py-4 px-9 bg-gradient-to-r from-[#A4BC46] to-[#85A019]  rounded-xl uppercase text-white font-medium">
+                              <i class="fa-solid fa-cart-shopping"></i>
+                             Buy Now</button>
+                      </div>
+                  </div>
+                    <!-- jacket 3 -->
+                    <div class="space-y-3 drop-shadow-xl px-5">
+                         <div class="bg-[#f1f1f1] p-5 rounded-2xl">
+                         <img src="./images/jacket-3.png" alt="">
+                         </div>
+                         <h4 class="text-2xl">Yellow Coat Jacket</h4>
+                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis, consequatur voluptatem. Nulla a voluptate, facere expedita.</p>
+                         
+                         <div class="flex justify-between ">
+                             <h3 class="text-4xl font-black text-orange-400">$235</h3>
+                             <button class=" py-4 px-9 bg-gradient-to-r from-[#A4BC46] to-[#85A019]  rounded-xl uppercase text-white font-medium">
+                                 <i class="fa-solid fa-cart-shopping"></i>
+                                 Buy Now</button>
+                         </div>
+                  </div>
+            </div>
+           
+        </section>
+
+        <!-- men jacket  -->
+        <section class="py-12">
+            <h3 class="text-5xl font-bebas">men jacket</h3>
+            <!-- jacket 1 -->
+            <div class="font-roboto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7 ">
+                <div class="space-y-3 shadow-white px-5">
+                    <div class="bg-[#f1f1f1] drop-shadow-xl p-5 rounded-2xl">
+                     <img src="./images/jacket-4.png" alt="">
+                    </div>
+                     <h4 class="text-2xl">Yellow Coat Jacket</h4>
+                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis, consequatur voluptatem. Nulla a voluptate, facere expedita.</p>
+                     
+                     <div class="flex justify-between ">
+                         <h3 class="text-4xl font-black text-orange-400">$235</h3>
+                         <button class=" py-4 px-9 bg-gradient-to-r from-[#A4BC46] to-[#85A019]  rounded-xl uppercase text-white font-medium">
+                             <i class="fa-solid fa-cart-shopping"></i>
+                            Buy Now</button>
+                     </div>
+                 </div>
+                  <!-- jacket 2 -->
+                  <div class="space-y-3 drop-shadow-xl px-5">
+                     <div class="bg-[#f1f1f1] p-5 rounded-2xl">
+                      <img src="./images/jacket-5.png" alt="">
+                     </div>
+                      <h4 class="text-2xl">Yellow Coat Jacket</h4>
+                      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis, consequatur voluptatem. Nulla a voluptate, facere expedita.</p>
+                      
+                      <div class="flex justify-between ">
+                          <h3 class="text-4xl font-black text-orange-400">$235</h3>
+                          <button class=" py-4 px-9 bg-gradient-to-r from-[#A4BC46] to-[#85A019]  rounded-xl uppercase text-white font-medium">
+                              <i class="fa-solid fa-cart-shopping"></i>
+                             Buy Now</button>
+                      </div>
+                  </div>
+                    <!-- jacket 3 -->
+                    <div class="space-y-3 drop-shadow-xl px-5">
+                         <div class="bg-[#f1f1f1] p-5 rounded-2xl">
+                         <img src="./images/jacket-6.png" alt="">
+                         </div>
+                         <h4 class="text-2xl">Yellow Coat Jacket</h4>
+                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis, consequatur voluptatem. Nulla a voluptate, facere expedita.</p>
+                         
+                         <div class="flex justify-between ">
+                             <h3 class="text-4xl font-black text-orange-400">$235</h3>
+                             <button class=" py-4 px-9 bg-gradient-to-r from-[#A4BC46] to-[#85A019]  rounded-xl uppercase text-white font-medium">
+                                 <i class="fa-solid fa-cart-shopping"></i>
+                                 Buy Now</button>
+                         </div>
+                  </div>
+            </div>
+           
+        </section>
+    </main>
+
 </body>
 </html>
